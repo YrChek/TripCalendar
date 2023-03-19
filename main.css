@@ -1,0 +1,200 @@
+/*!
+ * Использованы изображения с сайта https://iconbird.com.
+ * Дизайнер: Emey87
+ *
+ */
+.selection-menu {
+  width: 400px;
+  background-color: gainsboro;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.preparation {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  align-items: center;
+  padding: 5px;
+}
+.preparation-text {
+  font-size: 18px;
+  flex-grow: 1;
+  text-align: center;
+}
+.preparation-checkbox {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+.switch-box {
+  display: flex;
+  background: white;
+}
+.switch-toggle {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
+.checkbox:checked + .switch-box {
+  background-image: url(25875df3b1c4b4fa3c34.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 95%;
+}
+.checkbox {
+  display: none;
+}
+.container-forms {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+}
+.way-there {
+  display: block;
+  width: 100%;
+  padding: 1px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.way-there-text {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.way-there-input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 35px;
+  font-size: 16px;
+}
+
+.way-back {
+  width: 100%;
+  padding: 1px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.way-back-text {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.way-back-input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 35px;
+  font-size: 16px;
+}
+.search {
+  margin: 30px;
+  text-align: center;
+  
+}
+.search-btn {
+  width: 250px;
+  height: 45px;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+}
+.error {
+  box-sizing: content-box;
+  height: 30px;
+  color: red;
+}
+.bingo {
+  display: flex;
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+  background-color: red;
+  left:10px;
+  top: 0px;
+  align-items: center;
+  justify-content: center;
+}
+.calendar {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 280px;
+  height: 300px;
+  box-sizing:content-box;
+  border: 1px solid black;
+  background-color: white;
+  left: 55px;
+}
+.month {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+}
+.previous {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  cursor: pointer;
+}
+.month-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 4;
+}
+.next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  cursor: pointer;
+}
+.weekday {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.weekday-item {
+  display: flex;
+  width: 37px;
+  height: 37px;
+  justify-content: center;
+  align-items: center;
+}
+.relax {
+  color: red;
+}
+.dates {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.date {
+  display: flex;
+  box-sizing: border-box;
+  width: 37px;
+  height: 37px;
+  justify-content: center;
+  align-items: center;
+}
+.today {
+  background-color: red;
+  border-radius: 50%;
+}
+.past{
+  color:darkgrey
+}
+.number {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map*/

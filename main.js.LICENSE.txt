@@ -1,0 +1,9 @@
+/*!
+ * Использованы изображения с сайта https://iconbird.com.
+ * Дизайнер: Emey87
+ *
+ */
+
+//! moment.js
+
+//! moment.js locale configuration
