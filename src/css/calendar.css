@@ -1,0 +1,79 @@
+.calendar {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 280px;
+  height: 300px;
+  box-sizing:content-box;
+  border: 1px solid black;
+  background-color: white;
+  left: 55px;
+}
+.month {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+}
+.previous {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  cursor: pointer;
+}
+.month-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 4;
+}
+.next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  cursor: pointer;
+}
+.weekday {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.weekday-item {
+  display: flex;
+  width: 37px;
+  height: 37px;
+  justify-content: center;
+  align-items: center;
+}
+.relax {
+  color: red;
+}
+.dates {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.date {
+  display: flex;
+  box-sizing: border-box;
+  width: 37px;
+  height: 37px;
+  justify-content: center;
+  align-items: center;
+}
+.today {
+  background-color: red;
+  border-radius: 50%;
+}
+.past{
+  color:darkgrey
+}
+.number {
+  cursor: pointer;
+}
